@@ -1,0 +1,30 @@
+@font-face {
+    font-family: popins;
+    src: url('../../assets/fonts/popins/Poppins-Regular.ttf');
+}
+
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+}
+
+.logo{
+    width: 90px;
+}
+header div h5{
+    font-family: popins;
+    font-size: 14px;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.x{
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
